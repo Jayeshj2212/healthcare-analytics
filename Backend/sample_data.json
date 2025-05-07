@@ -1,0 +1,435 @@
+[
+  {
+    "hospital_id": "1",
+    "name": "Apollo Spectra Hospitals",
+    "location": "New Delhi, Delhi - 110048",
+    "year_of_empanelment": "2018",
+    "is_primary": true,
+    "is_corporate_chain": true,
+    "latitude": 28.5355,
+    "longitude": 77.3910,
+    "incurred_count_percentage": 60,
+    "claim_count_percentage": 49,
+    "claims_summary": {
+      "incurred_count": 89,
+      "claim_count": 70,
+      "annual_count": "Last Year",
+      "cashless_claims": 3500000,
+      "cashless_claims_count": 40,
+      "total_acs": 113965,
+      "average_claim_size_inflation_trend": {
+        "categories": ["2018", "2019", "2020", "2021", "2022"],
+        "data": [54.82, 58.00, 60.50, 63.00, 66.21]
+      },
+      "cashless_yearly_data": {
+        "2023": 10,
+        "2024": 15,
+        "2025": 15
+      },
+      "reimbursement_claims": 1320000,
+      "reimbursement_claims_count": 14,
+      "reimbursement_yearly_data": {
+        "2023": 5,
+        "2024": 5,
+        "2025": 4
+      },
+      "medical_claims": 1220000,
+      "medical_claims_counts": 20,
+      "medical_yearly_data": {
+        "2023": 7,
+        "2024": 8,
+        "2025": 5
+      },
+      "surgical_claims": 4940000,
+      "surgical_claims_counts": 34,
+      "surgical_yearly_data": {
+        "2023": 12,
+        "2024": 11,
+        "2025": 11
+      },
+      "total_amount": 121221,
+      "yearly_data": {
+        "2023": 34,
+        "2024": 20,
+        "2025": 16
+      },
+      "medical_claims_approved": 980000,
+      "surgical_claims_approved": 4200000,
+      "medical_claims_percentage": {
+        "approved": 80,
+        "claimed": 20
+      },
+      "surgical_claims_percentage": {
+        "approved": 85,
+        "claimed": 15
+      },
+      "medical_claims_amount": {
+        "approved": 9.8,
+        "claimed": 12.2
+      },
+      "surgical_claims_amount": {
+        "approved": 42.0,
+        "claimed": 49.4
+      },
+      "medical_claims_count": {
+        "approved": 16,
+        "claimed": 20
+      },
+      "surgical_claims_count": {
+        "approved": 29,
+        "claimed": 34
+      },
+      "average_medical_claim": 60883,
+      "average_surgical_claim": 145294,
+      "approval_rate": 88.5
+    },
+    "similar_hospitals": [
+      {
+        "name": "Max Healthcare",
+        "distance": "2 km",
+        "type": "Primary",
+        "acs": 92619
+      },
+      {
+        "name": "Fortis Hospital",
+        "distance": "5 km",
+        "type": "Primary",
+        "acs": 92619
+      },
+      {
+        "name": "BLK Super Speciality Hospital",
+        "distance": "8 km",
+        "type": "Multi-Specialty",
+        "acs": 84320
+      }
+    ],
+    "top_diagnoses": [
+      {
+        "icd_code": "E04.1",
+        "count": 4,
+        "amount": 285385,
+        "avg_cost": 71346.25
+      },
+      {
+        "icd_code": "S83.5",
+        "count": 2,
+        "amount": 271335,
+        "avg_cost": 135667.50
+      },
+      {
+        "icd_code": "R54",
+        "count": 2,
+        "amount": 29353,
+        "avg_cost": 14676.50
+      },
+      {
+        "icd_code": "J38.1",
+        "count": 2,
+        "amount": 76941,
+        "avg_cost": 38470.50
+      }
+    ],
+    "rejected_claims": {
+      "total_rejected": 11,
+      "total_repudiated": 3,
+      "total_rejected_amount": 121331,
+      "rejected_yearly_data": {
+        "2023": 5,
+        "2024": 4,
+        "2025": 2
+      },
+      "reasons": [
+        {"reason": "Policy exclusions", "percentage": 38},
+        {"reason": "Pre-existing conditions", "percentage": 25},
+        {"reason": "Incomplete documentation", "percentage": 18},
+        {"reason": "Treatment not covered", "percentage": 12},
+        {"reason": "Other reasons", "percentage": 7}
+      ]
+    },
+    "ilm_findings": [
+      {
+        "title": "Consistently High Drug Charges",
+        "description": "Drug charges are consistently 22% higher than network average for similar procedures.",
+        "impact": "Medium"
+      },
+      {
+        "title": "Unusual Billing Pattern",
+        "description": "Multiple instances of unusual bundling of services detected in recent claims.",
+        "impact": "High"
+      },
+      {
+        "title": "Extended Length of Stay",
+        "description": "Average length of stay for ACL Tear is 2.5 days higher than expected.",
+        "impact": "Low"
+      }
+    ],
+    "feedback": [
+      {
+        "category": "Claim Processing Speed",
+        "rating": 4,
+        "date": "2024-03-15",
+        "comment": "Claim processing times have improved significantly in the last quarter. The team has been responsive and helpful.",
+        "author": "Dr. Sharma, Administrative Head"
+      },
+      {
+        "category": "Communication",
+        "rating": 5,
+        "date": "2024-02-28",
+        "comment": "Great communication from the insurance team. Always get timely updates on claim status and requirements.",
+        "author": "Ms. Gupta, Finance Manager"
+      }
+    ],
+    "claim_type_trend": [
+      {"year": "2023", "claimed": 100000, "approved": 80000},
+      {"year": "2024", "claimed": 120000, "approved": 90000},
+      {"year": "2025", "claimed": 110000, "approved": 95000}
+    ],
+    "component_trend": {
+      "series": [
+        {"name": "Room Charges", "data": [4000, 8000, 9500, 7000, 7500]},
+        {"name": "Medication", "data": [45000, 65000, 71000, 80000, 96000]},
+        {"name": "Surgery", "data": [65000, 75000, 80000, 85000, 87000]},
+        {"name": "Consultation", "data": [50000, 55000, 60000, 65000, 67000]}
+      ],
+      "categories": ["2019", "2020", "2021", "2022", "2023"]
+    }
+  },
+  {
+    "hospital_id": "2",
+    "name": "Ruby Hall Clinic",
+    "location": "Sassoon Road, Pune, Maharashtra - 411001",
+    "year_of_empanelment": "2017",
+    "is_primary": true,
+    "is_corporate_chain": false,
+    "latitude": 18.5286,
+    "longitude": 73.8764,
+    "incurred_count_percentage": 55,
+    "claim_count_percentage": 47,
+    "claims_summary": {
+      "incurred_count": 95,
+      "claim_count": 80,
+      "annual_count": "Last Year",
+      "cashless_claims": 4000000,
+      "cashless_claims_count": 45,
+      "total_acs": 120000,
+      "average_claim_size_inflation_trend": {
+        "categories": ["2018", "2019", "2020", "2021", "2022"],
+        "data": [54.82, 58.00, 60.50, 63.00, 66.21]
+      },
+      "cashless_yearly_data": {
+        "2023": 12,
+        "2024": 18,
+        "2025": 15
+      },
+      "reimbursement_claims": 1500000,
+      "reimbursement_claims_count": 20,
+      "reimbursement_yearly_data": {
+        "2023": 6,
+        "2024": 7,
+        "2025": 7
+      },
+      "medical_claims": 1300000,
+      "medical_claims_counts": 25,
+      "medical_yearly_data": {
+        "2023": 8,
+        "2024": 9,
+        "2025": 8
+      },
+      "surgical_claims": 5200000,
+      "surgical_claims_counts": 40,
+      "surgical_yearly_data": {
+        "2023": 14,
+        "2024": 13,
+        "2025": 13
+      },
+      "total_amount": 130000,
+      "yearly_data": {
+        "2023": 38,
+        "2024": 22,
+        "2025": 20
+      },
+      "medical_claims_approved": 1040000,
+      "surgical_claims_approved": 4420000,
+      "medical_claims_percentage": {
+        "approved": 80,
+        "claimed": 20
+      },
+      "surgical_claims_percentage": {
+        "approved": 85,
+        "claimed": 15
+      },
+      "medical_claims_amount": {
+        "approved": 10.4,
+        "claimed": 13.0
+      },
+      "surgical_claims_amount": {
+        "approved": 44.2,
+        "claimed": 52.0
+      },
+      "medical_claims_count": {
+        "approved": 20,
+        "claimed": 25
+      },
+      "surgical_claims_count": {
+        "approved": 34,
+        "claimed": 40
+      },
+      "average_medical_claim": 52000,
+      "average_surgical_claim": 130000,
+      "approval_rate": 88.0
+    },
+    "similar_hospitals": [
+      {
+        "name": "Jehangir Hospital",
+        "distance": "1 km",
+        "type": "Primary",
+        "acs": 115000
+      },
+      {
+        "name": "Sahyadri Hospital",
+        "distance": "3 km",
+        "type": "Multi-Specialty",
+        "acs": 110000
+      },
+      {
+        "name": "Deenanath Mangeshkar Hospital",
+        "distance": "5 km",
+        "type": "Multi-Specialty",
+        "acs": 105000
+      }
+    ],
+    "top_diagnoses": [
+      {
+        "icd_code": "I20.0",
+        "count": 5,
+        "amount": 300000,
+        "avg_cost": 60000
+      },
+      {
+        "icd_code": "K35.2",
+        "count": 3,
+        "amount": 180000,
+        "avg_cost": 60000
+      },
+      {
+        "icd_code": "N20.0",
+        "count": 2,
+        "amount": 100000,
+        "avg_cost": 50000
+      },
+      {
+        "icd_code": "J18.9",
+        "count": 2,
+        "amount": 80000,
+        "avg_cost": 40000
+      }
+    ],
+    "rejected_claims": {
+      "total_rejected": 10,
+      "total_repudiated": 2,
+      "total_rejected_amount": 100000,
+      "rejected_yearly_data": {
+        "2023": 4,
+        "2024": 3,
+        "2025": 3
+      },
+      "reasons": [
+        {
+          "reason": "Policy exclusions",
+          "percentage": 40
+        },
+        {
+          "reason": "Pre-existing conditions",
+          "percentage": 30
+        },
+        {
+          "reason": "Incomplete documentation",
+          "percentage": 15
+        },
+        {
+          "reason": "Treatment not covered",
+          "percentage": 10
+        },
+        {
+          "reason": "Other reasons",
+          "percentage": 5
+        }
+      ]
+    },
+    "ilm_findings": [
+      {
+        "title": "High Imaging Costs",
+        "description": "Imaging charges are 25% higher than the network average.",
+        "impact": "Medium"
+      },
+      {
+        "title": "Frequent Readmissions",
+        "description": "Notable number of readmissions within 30 days for cardiac procedures.",
+        "impact": "High"
+      },
+      {
+        "title": "Extended ICU Stay",
+        "description": "ICU stays exceed the average duration by 1.5 days.",
+        "impact": "Low"
+      }
+    ],
+    "feedback": [
+      {
+        "category": "Facility Cleanliness",
+        "rating": 5,
+        "date": "2024-04-10",
+        "comment": "The hospital maintains excellent hygiene standards.",
+        "author": "Mr. Patel, Patient"
+      },
+      {
+        "category": "Staff Behavior",
+        "rating": 4,
+        "date": "2024-03-22",
+        "comment": "Staff were courteous and helpful throughout the stay.",
+        "author": "Mrs. Desai, Patient"
+      }
+    ],
+    "claim_type_trend": [
+      {
+        "year": "2023",
+        "claimed": 110000,
+        "approved": 90000
+      },
+      {
+        "year": "2024",
+        "claimed": 130000,
+        "approved": 100000
+      },
+      {
+        "year": "2025",
+        "claimed": 120000,
+        "approved": 105000
+      }
+    ],
+    "component_trend": {
+      "series": [
+        {
+          "name": "Room Charges",
+          "data": [5000, 8500, 9000, 7500, 8000]
+        },
+        {
+          "name": "Medication",
+          "data": [46000, 67000, 72000, 81000, 97000]
+        },
+        {
+          "name": "Surgery",
+          "data": [66000, 76000, 81000, 86000, 88000]
+        },
+        {
+          "name": "Consultation",
+          "data": [51000, 56000, 61000, 66000, 68000]
+        }
+      ],
+      "categories": ["2019", "2020", "2021", "2022", "2023"]
+    },
+    "average_claim_size_inflation_trend": {
+      "categories": ["2018", "2019", "2020", "2021", "2022"],
+      "data": [54.82, 58.00, 60.50, 63.00, 66.21]
+    }
+  }
+]
