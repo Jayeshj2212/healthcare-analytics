@@ -229,7 +229,11 @@ const Dashboard = () => {
         </div>
         <div className="grid grid-cols-1 mt-4 sm:mt-6 lg:grid-cols-2 gap-4 sm:gap-6">
           <TopDiagnoses data={hospitalData.top_diagnoses} />
-          <RejectedClaims data={hospitalData.rejected_claims} />
+          <RejectedClaims           
+          data={{
+            claims_summary: hospitalData.claims_summary,
+            rejected_claims: hospitalData.rejected_claims
+          }}  />
         </div>
         <div className="grid grid-cols-1 mt-4 sm:mt-6 lg:grid-cols-2 gap-4 sm:gap-6">
           <ILMFindings data={hospitalData.ilm_findings} />
