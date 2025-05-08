@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BarChart, LineChart, Info, PieChart, Calendar, TrendingUp, Filter, Users, Package, Home, PanelRight, Bell, MessageSquare, AlertTriangle, ArrowLeft, MapPin } from 'lucide-react';
 import '../App.css';
-import navbg from '/dist/img/navbg.jpeg'; // Adjust the path as necessary
+import navbg from '../components/navbg.jpeg'; // Adjust the path as necessary
 import HospitalHeader from '../components/HospitalHeader';
 import ClaimsSummary from '../components/ClaimsSummary';
 import CostClaimsEfficiency from '../components/CostClaimsEfficiency';
@@ -199,7 +199,7 @@ const Dashboard = () => {
                     </svg>
                   </button>
                 </div>
-                <img src="/dist/img/logo.png" alt="Logo" className="h-12 sm:h-16 w-auto ml-4" />
+                <img src="/src/img/logo.png" alt="Logo" className="h-12 sm:h-16 w-auto ml-4" />
               </div>
             </div>
           </div>

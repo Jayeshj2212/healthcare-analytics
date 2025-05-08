@@ -59,7 +59,7 @@ const Home = () => {
       <nav className="bg-blue-700 text-white shadow-md">
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center">
-            <img src="/dist/img/logo.png" alt="Allianz Logo" className="h-8 mr-2" />
+            <img src="/src/img/logo.png" alt="Allianz Logo" className="h-8 mr-2" />
             <h1 className="text-xl font-semibold">Healthcare Analytics Platform</h1>
           </div>
           <div className="flex items-center space-x-4">
